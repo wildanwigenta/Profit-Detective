@@ -20,7 +20,7 @@
             <actions>
                 <action id="7" name="Set CSS style" sid="554902587956874" type="TextBox2">
                     <param id="0" name="Property name">&quot;color&quot;</param>
-                    <param id="1" name="Value">&quot;black&quot;</param>
+                    <param id="1" name="Value">&quot;white&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="503394394442040" type="TextBox2">
                     <param id="0" name="Text">&quot;Input Jawaban&quot;</param>
@@ -44,6 +44,10 @@
                 <action id="7" name="Set CSS style" sid="665950775470905" type="TextBox2">
                     <param id="0" name="Property name">&quot;outline&quot;</param>
                     <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="657918008012100" type="TextBox2">
+                    <param id="0" name="Property name">&quot;text-align&quot;</param>
+                    <param id="1" name="Value">&quot;center&quot;</param>
                 </action>
             </actions>
         </event-block>

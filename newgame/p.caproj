@@ -465,6 +465,25 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite19" sid="734858438427050">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="369582032114422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\input jwb_lv1.png">
+                        <collision-poly>
+                            <point x="0.076412" y="0.353846" />
+                            <point x="0.5" y="0.169231" />
+                            <point x="0.933555" y="0.307692" />
+                            <point x="0.946844" y="0.5" />
+                            <point x="0.931894" y="0.684615" />
+                            <point x="0.5" y="0.815385" />
+                            <point x="0.0780731" y="0.638462" />
+                            <point x="0.0697674" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
