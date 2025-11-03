@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>p</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="home" sid="367736630217114">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959053585883058" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Halaman Awal_Background Only.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="352544590381429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="645769507797133" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503704" original-source="C:\Users\dayat\Downloads\Icon_Petunjuk.png">
+                        <collision-poly>
+                            <point x="0.331169" y="0.377778" />
+                            <point x="0.5" y="0.214815" />
+                            <point x="0.74026" y="0.296296" />
+                            <point x="0.805195" y="0.496296" />
+                            <point x="0.733766" y="0.696296" />
+                            <point x="0.5" y="0.77037" />
+                            <point x="0.331169" y="0.622222" />
+                            <point x="0.305195" y="0.496296" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="522340825140552">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="prev" sid="525106489453116">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400087689263392" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.3" y="0.333333" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7125" y="0.319444" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.2625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="next" sid="599260652186371">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911897305291862" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.7375" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.25" y="0.5" />
+                            <point x="0.2875" y="0.319444" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7" y="0.333333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="halaman1" sid="776136724038052">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206660626937481" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Petunjuk_1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="868625280368491">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451699089764005" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Petunjuk_2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="prev1" sid="819550361210792">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352335262681762" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.3" y="0.333333" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7125" y="0.319444" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.2625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="next1" sid="751065435849366">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388710540253040" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.7375" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.25" y="0.5" />
+                            <point x="0.2875" y="0.319444" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7" y="0.333333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="707839031682478">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160372829850902" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Petunjuk_3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="prev2" sid="382176842165797">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="932153642913855" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.3" y="0.333333" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7125" y="0.319444" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.2625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="next2" sid="548170425497665">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961205957927244" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.7375" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.25" y="0.5" />
+                            <point x="0.2875" y="0.319444" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7" y="0.333333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="968577827603992">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100472537633400" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Petunjuk_4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="prev3" sid="781028880673683">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="622550299109903" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.3" y="0.333333" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7125" y="0.319444" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.2625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="next3" sid="909690206876471">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816835226242785" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_back.png">
+                        <collision-poly>
+                            <point x="0.7375" y="0.5" />
+                            <point x="0.675" y="0.638889" />
+                            <point x="0.5" y="0.722222" />
+                            <point x="0.325" y="0.638889" />
+                            <point x="0.25" y="0.5" />
+                            <point x="0.2875" y="0.319444" />
+                            <point x="0.5" y="0.180556" />
+                            <point x="0.7" y="0.333333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="974036074692688">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911273915528150" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Level 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="178505320660538">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665089666991129" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Background_Soal Lv 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="589541004036946">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240057435225535" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_Selanjutnya.png">
+                        <collision-poly>
+                            <point x="0.266055" y="0.256637" />
+                            <point x="0.5" y="0.168142" />
+                            <point x="0.756881" y="0.234513" />
+                            <point x="0.866973" y="0.5" />
+                            <point x="0.5" y="0.90708" />
+                            <point x="0.380734" y="0.632743" />
+                            <point x="0.188073" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mulai" sid="913586079035636">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807145429263099" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\image-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.369444" />
+                            <point x="0.544798" y="0.5" />
+                            <point x="0.5" y="0.675" />
+                            <point x="0.361272" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="124335154067467">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562845462395134" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\bomb.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="129646432901243">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723281643817775" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\block_planks.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="679240199338669">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224092136111775" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500931" original-source="C:\Users\dayat\Downloads\boom.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="627832489003542">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="118046484397047" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Halaman Petunjuk.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="122536234452582">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="219222264606318" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Halaman Petunjuk (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="863370039364190">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669334026051715" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Soal_lv 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="276896782625055">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="602369769896274" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505882" original-source="C:\Users\dayat\Downloads\Box_kereng.png">
+                        <collision-poly>
+                            <point x="0.232143" y="0.305882" />
+                            <point x="0.5" y="0.270588" />
+                            <point x="0.651786" y="0.458824" />
+                            <point x="0.714286" y="0.494118" />
+                            <point x="0.651786" y="0.541176" />
+                            <point x="0.5" y="0.752941" />
+                            <point x="0.267857" y="0.647059" />
+                            <point x="0.241071" y="0.494118" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="138513518649329">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965711802106628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Kursi.png">
+                        <collision-poly>
+                            <point x="0.473684" y="0.378947" />
+                            <point x="0.5" y="0.126316" />
+                            <point x="0.828947" y="0.136842" />
+                            <point x="0.796053" y="0.836842" />
+                            <point x="0.5" y="0.584211" />
+                            <point x="0.263158" y="0.789474" />
+                            <point x="0.375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="967191630307221">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245025196864130" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\kardus tumpuk.png">
+                        <collision-poly>
+                            <point x="0.217391" y="0.245098" />
+                            <point x="0.5" y="0.0147059" />
+                            <point x="0.756522" y="0.27451" />
+                            <point x="0.891304" y="0.5" />
+                            <point x="0.908696" y="0.897059" />
+                            <point x="0.5" y="0.95098" />
+                            <point x="0.0869565" y="0.901961" />
+                            <point x="0.147826" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="578521498897334">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Sprite17" sid="293615697933036">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="306588063238385" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\input_soal lv1.png">
+                        <collision-poly>
+                            <point x="0.0706215" y="0.416667" />
+                            <point x="0.5" y="0.0666667" />
+                            <point x="0.935028" y="0.383333" />
+                            <point x="0.935028" y="0.5" />
+                            <point x="0.929379" y="0.583333" />
+                            <point x="0.5" y="0.8" />
+                            <point x="0.0734463" y="0.566667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox2" sid="595990634578582">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Keyboard" sid="437716872926084">
+            <plugin id="Keyboard" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>menu.xml</layout>
+        <layout>Level 1.xml</layout>
+        <layout>petunjuk .xml</layout>
+        <layout>petunjuk1.xml</layout>
+        <layout>petunjuk2.xml</layout>
+        <layout>petunjuk3.xml</layout>
+        <layout>laboratorium1.xml</layout>
+        <layout>Level 2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>Event sheet 6.xml</event-sheet>
+        <event-sheet>Event sheet 7.xml</event-sheet>
+        <event-sheet>Event sheet 8.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="1" />
+        <global-instance type="Keyboard" uid="30" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

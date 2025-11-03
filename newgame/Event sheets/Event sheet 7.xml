@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 7</name>
+    <events>
+        <event-block sid="426073469221752">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="238928840982465" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite17</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="596114608502936">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="615122565275675" type="System" />
+            </conditions>
+            <actions>
+                <action id="7" name="Set CSS style" sid="554902587956874" type="TextBox2">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;black&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="503394394442040" type="TextBox2">
+                    <param id="0" name="Text">&quot;Input Jawaban&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="374441489453249" type="TextBox2">
+                    <param id="0" name="Property name">&quot;background-color&quot;</param>
+                    <param id="1" name="Value">&quot;transparent&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="649490753092507" type="TextBox2">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="698599938679533" type="TextBox2">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;24px&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="315593724374802" type="TextBox2">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Comic Sans MS&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="665950775470905" type="TextBox2">
+                    <param id="0" name="Property name">&quot;outline&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="681052602634214">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="116395980946562" type="Keyboard">
+                    <param id="0" name="Key">13</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="191042440157728">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="211045546548480" type="System">
+                    <param id="0" name="First value">&quot;lower(TextBox2.Text)&quot;</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;merah&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="723215159902276" type="System">
+                    <param id="0" name="Layout">Level 2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
