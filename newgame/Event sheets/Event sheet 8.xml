@@ -2,5 +2,34 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 8</name>
-    <events />
+    <events>
+        <event-block sid="946699605232751">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="970507638983857" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite24</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="600059741690052" type="System">
+                    <param id="0" name="Layout">&quot;Kejadian 1_Lv 2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="326467005469510">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="209131214878117" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite26</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="371840884967956" type="System">
+                    <param id="0" name="Layout">&quot;Kejadian 2_Lv 2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

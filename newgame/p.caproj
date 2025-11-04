@@ -457,14 +457,6 @@
         <object-type name="Keyboard" sid="437716872926084">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Sprite18" sid="935698353950113">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795161926303800" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Background_Lv 2.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite19" sid="734858438427050">
             <plugin id="Sprite" />
             <animation-folder>
@@ -484,6 +476,133 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite18" sid="306440062988676">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996072107166614" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\bg lv 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="458508647604937">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171032255244002" speed="5">
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.503937" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Dadu.png">
+                        <collision-poly>
+                            <point x="0.204969" y="0.259843" />
+                            <point x="0.496894" y="0.173228" />
+                            <point x="0.677019" y="0.409449" />
+                            <point x="0.714286" y="0.496063" />
+                            <point x="0.757764" y="0.692913" />
+                            <point x="0.496894" y="0.929134" />
+                            <point x="0.15528" y="0.80315" />
+                            <point x="0.0931677" y="0.496063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="640772009463475">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514170127886978" speed="5">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.50303" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kartu Remi.png">
+                        <collision-poly>
+                            <point x="0.294686" y="0.369697" />
+                            <point x="0.497585" y="0.260606" />
+                            <point x="0.613527" y="0.484848" />
+                            <point x="0.671498" y="0.49697" />
+                            <point x="0.700483" y="0.624242" />
+                            <point x="0.497585" y="0.8" />
+                            <point x="0.347826" y="0.563636" />
+                            <point x="0.256039" y="0.49697" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="398642673587853">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="204027074920006" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kejadian 1_Dadu.png">
+                        <collision-poly>
+                            <point x="0.0497836" y="0.14557" />
+                            <point x="0.5" y="0.101266" />
+                            <point x="0.958874" y="0.120253" />
+                            <point x="0.982684" y="0.5" />
+                            <point x="0.965368" y="0.898734" />
+                            <point x="0.5" y="0.93038" />
+                            <point x="0.04329" y="0.873418" />
+                            <point x="0.0324675" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="760847978367997">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="192729868705896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\lv 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite24" sid="469410654628188">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822842419405060" speed="5">
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.503937" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Dadu.png">
+                        <collision-poly>
+                            <point x="0.204969" y="0.259843" />
+                            <point x="0.496894" y="0.173228" />
+                            <point x="0.677019" y="0.409449" />
+                            <point x="0.714286" y="0.496063" />
+                            <point x="0.757764" y="0.692913" />
+                            <point x="0.496894" y="0.929134" />
+                            <point x="0.15528" y="0.80315" />
+                            <point x="0.0931677" y="0.496063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="738498251155819">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779270661787997" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\lv 2_Kejadian 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite26" sid="362676948200375">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="547943860697897" speed="5">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.50303" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kartu Remi.png">
+                        <collision-poly>
+                            <point x="0.294686" y="0.369697" />
+                            <point x="0.497585" y="0.260606" />
+                            <point x="0.613527" y="0.484848" />
+                            <point x="0.671498" y="0.49697" />
+                            <point x="0.700483" y="0.624242" />
+                            <point x="0.497585" y="0.8" />
+                            <point x="0.347826" y="0.563636" />
+                            <point x="0.256039" y="0.49697" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite27" sid="918903993812028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="595285927582092" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\lv 2_Kejadian 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -495,6 +614,8 @@
         <layout>petunjuk3.xml</layout>
         <layout>laboratorium1.xml</layout>
         <layout>Level 2.xml</layout>
+        <layout>Kejadian 1_Lv 2.xml</layout>
+        <layout>Kejadian 2_Lv 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
