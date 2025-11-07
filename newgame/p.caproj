@@ -603,6 +603,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite28" sid="825659706403348">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="198292615804620" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\lv 2 soal.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -616,6 +624,7 @@
         <layout>Level 2.xml</layout>
         <layout>Kejadian 1_Lv 2.xml</layout>
         <layout>Kejadian 2_Lv 2.xml</layout>
+        <layout>Soal Lv 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -626,6 +635,7 @@
         <event-sheet>Event sheet 6.xml</event-sheet>
         <event-sheet>Event sheet 7.xml</event-sheet>
         <event-sheet>Event sheet 8.xml</event-sheet>
+        <event-sheet>Event sheet 9.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
