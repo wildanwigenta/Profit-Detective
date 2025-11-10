@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -430,9 +431,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TextBox" sid="578521498897334">
-            <plugin id="TextBox" />
-        </object-type>
         <object-type name="Sprite17" sid="293615697933036">
             <plugin id="Sprite" />
             <animation-folder>
@@ -603,6 +601,12 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TextBox" sid="667224128272935">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Audio" sid="374133322589712">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -630,9 +634,32 @@
     <global-instances>
         <global-instance type="Mouse" uid="1" />
         <global-instance type="Keyboard" uid="30" />
+        <global-instance type="Audio" uid="37">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
-    <music-folder />
+    <sounds-folder>
+        <file name="salah.ogg" />
+        <file name="salah2.ogg" />
+        <file name="benar.ogg" />
+        <file name="clik.ogg" />
+        <file name="play.ogg" />
+        <file name="boom.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="game-music.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />

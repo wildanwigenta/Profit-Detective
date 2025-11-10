@@ -15,6 +15,12 @@
                 <action id="-2" name="Go to layout" sid="445155513163777" type="System">
                     <param id="0" name="Layout">Level 1</param>
                 </action>
+                <action id="0" name="Play" sid="426473308610026" type="Audio">
+                    <param id="0" name="Audio file">play</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="247399026092213">
@@ -28,6 +34,19 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="883322506613655" type="System">
                     <param id="0" name="Layout">petunjuk </param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="228577204156261">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="180491399836766" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="509075310174506" type="Audio">
+                    <param id="0" name="Audio file">game-music</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

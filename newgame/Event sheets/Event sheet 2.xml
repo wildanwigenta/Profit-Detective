@@ -15,6 +15,12 @@
                 <action id="-2" name="Go to layout" sid="442616042925652" type="System">
                     <param id="0" name="Layout">laboratorium1</param>
                 </action>
+                <action id="0" name="Play" sid="340964639362438" type="Audio">
+                    <param id="0" name="Audio file">clik</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="231989819790979">
@@ -45,6 +51,12 @@
                 <action id="-15" name="Set visible" sid="594018350316400" type="Sprite10">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="0" name="Play" sid="773144438564150" type="Audio">
+                    <param id="0" name="Audio file">boom</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="628736409651135">
@@ -64,6 +76,12 @@
                 </action>
                 <action id="-15" name="Set visible" sid="333160218851023" type="Sprite10">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Play" sid="120885195819706" type="Audio">
+                    <param id="0" name="Audio file">clik</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
