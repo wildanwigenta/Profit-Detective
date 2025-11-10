@@ -17,14 +17,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="5">petunjuk </layout>
         <layout order="6">petunjuk3</layout>
         <layout order="7">laboratorium1</layout>
-        <layout order="9">Level 2</layout>
+        <layout active="1" order="9">Level 2</layout>
         <layout order="10">Kejadian 1_Lv 2</layout>
         <layout order="13">Kejadian 2_Lv 2</layout>
-        <layout active="1" order="14">Soal Lv 2</layout>
+        <layout order="14">Soal Lv 2</layout>
         <event-sheet order="2">Event sheet 2</event-sheet>
         <event-sheet order="8">Event sheet 7</event-sheet>
         <event-sheet order="11">Event sheet 8</event-sheet>
         <event-sheet order="12">Event sheet 1</event-sheet>
+        <event-sheet order="15">Event sheet 6</event-sheet>
+        <event-sheet order="16">Event sheet 5</event-sheet>
+        <event-sheet order="17">Event sheet 4</event-sheet>
+        <event-sheet order="18">Event sheet 9</event-sheet>
+        <event-sheet order="19">Event sheet 3</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -80,5 +85,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite26/" />
         <folder expanded="1" path="animation-folder/Sprite27/" />
         <folder expanded="1" path="animation-folder/Sprite28/" />
+        <folder expanded="1" path="animation-folder/Sprite29/" />
+        <folder expanded="1" path="animation-folder/Sprite30/" />
+        <folder expanded="1" path="animation-folder/ButtonNext/" />
+        <folder expanded="1" path="animation-folder/Sprite31/" />
+        <folder expanded="1" path="animation-folder/Kartu_Kejadian1/" />
+        <folder expanded="1" path="animation-folder/Sprite32/" />
     </folders-expanded>
 </c2uistate>

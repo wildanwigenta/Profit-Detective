@@ -611,6 +611,117 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite29" sid="754344017466410">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687221589610131" speed="5">
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.503937" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Dadu.png">
+                        <collision-poly>
+                            <point x="0.204969" y="0.259843" />
+                            <point x="0.496894" y="0.173228" />
+                            <point x="0.677019" y="0.409449" />
+                            <point x="0.714286" y="0.496063" />
+                            <point x="0.757764" y="0.692913" />
+                            <point x="0.496894" y="0.929134" />
+                            <point x="0.15528" y="0.80315" />
+                            <point x="0.0931677" y="0.496063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite30" sid="669056166537309">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933984862054615" speed="5">
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.503937" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Dadu.png">
+                        <collision-poly>
+                            <point x="0.204969" y="0.259843" />
+                            <point x="0.496894" y="0.173228" />
+                            <point x="0.677019" y="0.409449" />
+                            <point x="0.714286" y="0.496063" />
+                            <point x="0.757764" y="0.692913" />
+                            <point x="0.496894" y="0.929134" />
+                            <point x="0.15528" y="0.80315" />
+                            <point x="0.0931677" y="0.496063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonNext" sid="422688469052949">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163413707125066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Icon_Selanjutnya.png">
+                        <collision-poly>
+                            <point x="0.266055" y="0.256637" />
+                            <point x="0.5" y="0.168142" />
+                            <point x="0.756881" y="0.234513" />
+                            <point x="0.866973" y="0.5" />
+                            <point x="0.5" y="0.90708" />
+                            <point x="0.380734" y="0.632743" />
+                            <point x="0.188073" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite31" sid="740950264363483">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="423668858448325" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Icon_Selanjutnya.png">
+                        <collision-poly>
+                            <point x="0.266055" y="0.256637" />
+                            <point x="0.5" y="0.168142" />
+                            <point x="0.756881" y="0.234513" />
+                            <point x="0.866973" y="0.5" />
+                            <point x="0.5" y="0.90708" />
+                            <point x="0.380734" y="0.632743" />
+                            <point x="0.188073" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kartu_Kejadian1" sid="976287030265736">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338257529502553" speed="5">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.50303" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kartu Remi.png">
+                        <collision-poly>
+                            <point x="0.294686" y="0.369697" />
+                            <point x="0.497585" y="0.260606" />
+                            <point x="0.613527" y="0.484848" />
+                            <point x="0.671498" y="0.49697" />
+                            <point x="0.700483" y="0.624242" />
+                            <point x="0.497585" y="0.8" />
+                            <point x="0.347826" y="0.563636" />
+                            <point x="0.256039" y="0.49697" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="874622951203088">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927512741074099" speed="5">
+                    <frame duration="1" hotspotX="0.50055" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Icon_Selanjutnya.png">
+                        <collision-poly>
+                            <point x="0.264026" y="0.254777" />
+                            <point x="0.49945" y="0.166667" />
+                            <point x="0.755776" y="0.235669" />
+                            <point x="0.867987" y="0.5" />
+                            <point x="0.49945" y="0.90552" />
+                            <point x="0.378438" y="0.63482" />
+                            <point x="0.188119" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

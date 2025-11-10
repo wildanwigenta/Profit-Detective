@@ -95,6 +95,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite32" uid="39">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1749.765014648</x>
+                        <y>935.742858887</y>
+                        <z>0</z>
+                        <width>386.465240479</width>
+                        <height>375.609466553</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500550032</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

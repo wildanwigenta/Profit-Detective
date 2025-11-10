@@ -2,5 +2,48 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 9</name>
-    <events />
+    <events>
+        <event-block sid="548801947144256">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="109891042731443" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite29</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="678317151944342" type="System">
+                    <param id="0" name="Layout">&quot;Kejadian 1_Lv 2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="908437663708290">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="278261527271463" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="659494121017474" type="System">
+                    <param id="0" name="Layout">Soal Lv 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="994679217845911">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="587029362594710" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Kartu_Kejadian1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="416984596696013" type="System">
+                    <param id="0" name="Layout">Kejadian 2_Lv 2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
