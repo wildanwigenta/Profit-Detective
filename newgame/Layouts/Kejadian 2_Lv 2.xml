@@ -2,7 +2,7 @@
 <c2layout>
     <name>Kejadian 2_Lv 2</name>
     <sid>395425852744244</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>Event sheet 9</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>
@@ -44,6 +44,50 @@
                         <z>0</z>
                         <width>1920</width>
                         <height>1080</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite29" uid="37">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1153.454589844</x>
+                        <y>811.188903809</y>
+                        <z>0</z>
+                        <width>90.061157227</width>
+                        <height>76.477233887</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503105581</hotspotX>
+                        <hotspotY>0.503937006</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ButtonNext" uid="38">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1752.140380859</x>
+                        <y>931.314453125</y>
+                        <z>0</z>
+                        <width>382.375854492</width>
+                        <height>370.819091797</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
